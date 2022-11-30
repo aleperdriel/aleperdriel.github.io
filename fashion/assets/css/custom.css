@@ -1,0 +1,11 @@
+/* Add your css in here */
+body { font-family: 'Playfair Display', serif;}
+section h2 { font-weight: 400 }
+.section-selector-1 { background-color: var(--gray-200) }
+.section-selector-2 { background-color: var(--gray-100) }
+.section-selector-4 { background-color: var(--green-800) }
+.section-selector-4 .col-1 h2 { color: var(--white-000) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] p { color: var(--white-000) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] li { color: var(--white-000) }
+.section-selector-4 div[class^='flex-cols-'] div[class^='col-'] figure.icon { color: var(--white-000) }
+
