@@ -101,10 +101,47 @@
     <footer style="background-color: #BBBBBB" class="custom-footer">
         <p>School project by Auriane Le Perdriel 2022</p>
         <p><a href="https://github.com/aleperdriel" target="_blank">My github profile</a></p>
+        <p><a href="/privacy.html">Privacy policy</a></p>
+
     </footer>
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#252e39"
+                },
+                "button": {
+                    "background": "#14a7d0"
+                }
+            },
+            "position": "bottom-left",
+            "content": {
+                "href": "https://aleperdriel.github.io/privacy.html"
+            }
+        });
+    </script>
+
+    <script>
+        window.cookieconsent.initialise({
+            "palette": {
+                "popup": {
+                    "background": "#edeff5",
+                    "text": "#838391"
+                },
+                "button": {
+                    "background": "#4b81e8"
+                }
+            },
+            "position": "bottom-left",
+            "content": {
+                "href": "https://aleperdriel.github.io/privacy.html"
+            }
+        });
+    </script>
 </body>
 
 </html>
