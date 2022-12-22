@@ -1,0 +1,158 @@
+/* Add custom style here  */
+#hero-3, #hero-4, #hero-5, #hero-6, #hero-7, #hero-8 { margin-top: 80px }
+
+#hero-1 header.theme-dark { background-color: var(--blue-700) }
+#hero-1 header.theme-dark h1 { color: var(--white-000) }
+
+#hero-2 header.hero-bg > .container-overlay { background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)); }
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000); background-color: var(--green-500); border-color: var(--green-500) }
+
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(1):active { color: var(--black-000); background-color: var(--green-400); border-color: var(--green-400) }
+
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--white-000); background-color: var(--green-500); border-color: var(--green-500) }
+
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-2 header.theme-dark .container-btn a.btn:nth-child(2):active { color: var(--black-000); background-color: var(--green-400); border-color: var(--green-400) }
+
+#hero-2 header.theme-dark h1 {
+   font-family: 'Bebas Neue', sans-serif;
+   font-weight: 400;
+   letter-spacing: 4px;
+   font-size: calc(72px + (132 - 72) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+#hero-3 header.theme-dark h1 {
+   font-family: 'Abril Fatface', cursive;
+   font-size: calc(48px + (100 - 48) * ((100vw - 320px)/ (1600 - 320)));
+}
+
+#hero-4 header.theme-light h1 {
+   font-family: 'Prata', serif;
+   font-weight: 400;
+   line-height: 1.2
+}
+
+#hero-4 header.theme-light { background-color: var(--trend-100) }
+#hero-4 header.theme-light .container-btn a.btn:nth-child(1):link,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(1):visited { color: var (--black-000); border-color: var(--black-000)}              
+
+#hero-4 header.theme-light .container-btn a.btn:nth-child(1):focus,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(1):hover,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(1):active {
+background-color: var (--gray-600); border-color: var(--gray-600); color: var (--white-000)}
+
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):focus,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):hover,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):active {color: var (--white-000)}
+
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):link,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):visited { color: var (--white-000); background-color: var(--black-000); border-color: var(--black-000) }                                             
+
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):focus,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):hover,
+#hero-4 header.theme-light .container-btn a.btn:nth-child(2):active {
+background-color: var (--gray-600);  border-color: var(--gray-600) }
+
+#hero-5 header .badge {
+   text-decoration: underline;
+   text-decoration-thickness: 2px;
+   text-underline-offset: 7px;
+   text-decoration-color: var(--green-400);
+   text-decoration-style: wavy;
+}
+
+#hero-5 header.theme-dark h1 {
+   font-family: 'Barlow Condensed', sans-serif;
+   font-weight: 600;
+   letter-spacing: 4px;
+   font-size: calc(48px + (100 - 48) * ((100vw - 320px)/ (1600 - 320)));
+   color: var(--green-400);
+}
+
+#hero-5 header.theme-dark h2 {
+   font-family: 'Zilla Slab', serif;
+   font-weight: 400;
+}
+
+
+#hero-5 header.theme-dark .badge { color: var(--white-000) }
+#hero-5 header.theme-dark .badge { background-color: var(--black-000) }
+#hero-5 header.theme-dark hl { color: var(--green-400) }
+
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(1):visited { color: var (--white-000); border-color: var(--white-000) }
+
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(1):focus,
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(1):hover,
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(1):active {color: var (--green-500); border-color: var (--green-500); background-color: var(--black-000) }
+
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(2):visited { color: var (--black-000);background-color: var(--green-400); border-color: var(--green-400) }
+
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(2):focus,
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(2):hover,
+#hero-5 header.theme-dark .container-btn a.btn:nth-child(2):active { color: var (--black-000); background-color: var(--green-500); border-color: var (--green-500) }
+
+#hero-6 header.theme-light h1 {
+   font-family: 'Playfair Display', serif;
+   letter-spacing: -4px;
+   font-weight: 400;
+   font-size: calc(60px + (98 - 60) * ((100vw - 320px) / (1600 - 320)));
+}
+
+#hero-6 header.theme-light { background-color: var(--trend-200) }
+#hero-6 header.theme-light .badge { background-color: var(--purple-700) }
+
+#hero-6 header.theme-light .container-btn a.btn:nth-child(1):link
+#hero-6 header.theme-light .container-btn a.btn:nth-child(1):visited {color: var(--pink-700); border-color: var(--pink-700); }                                      
+
+#hero-6 header.theme-light .container-btn a.btn:nth-child(1):focus,
+#hero-6 header.theme-light .container-btn a.btn:nth-child(1):hover,
+#hero-6 header.theme-light .container-btn a.btn:nth-child(1):active { color: var(--pink-500); background-color: var(--trend-200); border-color: var(--pink-500)}
+
+#hero-6 header.theme-light .container-btn a.btn:nth-child(2):link,
+#hero-6 header.theme-light .container-btn a.btn:nth-child(2):visited { color: var(--white-000); background-color: var(--pink-700);border-color: var(--pink-700) }
+
+
+#hero-6 header.theme-light .container-btn a.btn:nth-child(2):focus,
+#hero-6 header.theme-light .container-btn a.btn:nth-child(2):hover,
+#hero-6 header.theme-light .container-btn a.btn:nth-child(2):active { color: var(--white-000); background-color: var(--pink-500); border-color: var(--pink-500) }
+
+
+
+
+#hero-7 .theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-7 .theme-dark .container-btn a.btn:nth-child(1):visited { background-color: var(--blue-700) }
+
+#hero-7 .theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-7 .theme-dark .container-btn a.btn:nth-child(1):visited { border-color: var(--blue-700) }
+
+#hero-7 .theme-dark .container-btn a.btn:nth-child(1):link,
+#hero-7 .theme-dark .container-btn a.btn:nth-child(1):visited { color: var(--white-000) }
+
+#hero-7 .theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-7 .theme-dark .container-btn a.btn:nth-child(2):visited { background-color: var(--gray-600) }
+
+#hero-7 .theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-7 .theme-dark .container-btn a.btn:nth-child(2):visited { color: var(--red-800) }
+
+#hero-7 .theme-dark .container-btn a.btn:nth-child(2):link,
+#hero-7 .theme-dark .container-btn a.btn:nth-child(2):visited { border-color: var(--gray-600) }
+
+#hero-7 .theme-dark { background-color: var(--trend-900) }
+
+#hero-7 header.hero-block h1 { 
+   color: var(--gray-100); 
+   font-weight: 500; 
+   font-family: 'Inter', sans-serif
+}
+
+#hero-7 .hero-block.hero-half .hero-text-container h2 { 
+   color: var(--blue-100); line-height: 1.6;
+   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1600 - 320)));
+}
