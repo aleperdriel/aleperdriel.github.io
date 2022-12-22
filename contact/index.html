@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me | Auriane Le Perdriel</title>
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon-16x16.png">
+    <meta name="description"
+        content="Contact form to contact Auriane Le Perdriel, a fullstack developer available for your projects">
+
+    <!-- Preload large image -->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://lunevedy.com/assets/css/lunevedy.min.css" />
+    <link rel="stylesheet" href="../assets/css/custom.css" />
+
+    <!-- Google Fonts -->
+
+    <!-- Font Awesome 6 icons. Delete if not using. -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="theme-dark">
+        <div class="container-menu menu-desktop">
+            <a id="placeholder-logo" href="/index.html" class="brand">
+                <h2>ALP</h2>
+            </a>
+
+            <div class="container-menu-links">
+
+                <div class="nav-toggle" aria-label="menu" aria-expanded="false">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+
+                <ul class="links-wrapper">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/portfolio/index.html">Projects</a></li>
+                    <li><a class="btn btn-outline btn-soft" id="btn-cta" href="/contact/index.html"><span>Let's
+                                talk</span></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="container-contact-form w-800px">
+
+        <!-- Contact form starts here -->
+        <form id="contact-form" name="contact-form" accept-charset="utf-8" method="post"
+            action="https://formspree.io/f/xrgvzawg">
+
+            <div class="contact-form-upper text-center">
+                <h2>Contact me</h2>
+                <p>Let's chat about your project! There is always something we can do to help you develop your business
+                </p>
+            </div>
+
+            <!-- Begin contact form fields -->
+
+            <div class="flex-row">
+                <div class="item-name">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="Your First and Last Name." required="">
+                </div>
+                <div class="item-email">
+                    <label for="email-address">Email</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="Your Email Address."
+                        required="">
+                </div>
+            </div>
+
+            <div class="flex-row">
+                <div class="item-textarea">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Your Message." required=""></textarea>
+                </div>
+
+                <div class="item-btn">
+                    <button id="btn-submit" type="submit"><span>Send</span><i
+                            class="fas fa-arrow-circle-right"></i></button>
+                </div>
+            </div>
+
+            <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+            <!-- End contact form fields -->
+
+        </form><!-- Contact form ends here -->
+    </section><!-- End container for contact form -->
+
+    </main>
+
+    <!-- footer -->
+    <footer style="background-color: #BBBBBB" class="custom-footer">
+        <p>School project by Auriane Le Perdriel 2022</p>
+        <p><a href="https://github.com/aleperdriel" target="_blank">My github profile</a></p>
+    </footer>
+
+    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+</body>
+
+</html>

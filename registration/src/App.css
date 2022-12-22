@@ -1,0 +1,51 @@
+.form-main {
+  display: grid;
+  place-content: center;
+}
+form {
+  background-color: #fbfbfb;
+  text-align: center;
+  padding: 2em 20%;
+  border-radius: 10px;
+  box-shadow: -4px 3px 15px 5px rgba(0,0,0,0.08);
+}
+
+.form-line {
+  padding-bottom: 1.5em;
+}
+
+.form-line label {
+  display: block;
+}
+
+.form-line input {
+  border-radius: 3px;
+  border: none;
+  border: 1px solid black;
+  height: 2em;
+  margin-top: 10px;
+  background-color: #fff;
+  width: 100%;
+}
+
+button {
+  background-color: orange;
+  border: none;
+  padding: 10px;
+  margin-top: 1em;
+  color: #fff;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #fff;
+  color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+  padding: 9px;
+  
+}
+
+button:disabled {
+  background-color: grey;
+}

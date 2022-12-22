@@ -6,7 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Auriane Le Perdriel</title>
-  <meta name="description" content="Sample web page description goes here.">
+  <link rel="icon" type="image/x-icon" href="../assets/img/favicon-16x16.png">
+
+  <meta name="description"
+    content="This is Auriane Le Perdriel's portfolio, fullstack developer available on Paris and anywhere else in the world in remote">
 
   <!-- Preload large image -->
 
@@ -15,15 +18,14 @@
   <link rel="stylesheet" href="assets/css/custom.css" />
 
   <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 
   <!-- Font Awesome 6 icons. Delete if not using. -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-  <!-- Line Awesome thin icons. Delete if not using. -->
-  <link rel="stylesheet"
-    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
 
 </head>
 
@@ -38,55 +40,106 @@
 </script>
 
 <body>
-  <nav class="container-menu menu-dark text-center-mobile menu-desktop">
-    <a href="#"><img src="assets/img/website-logo-sample.png" alt="website logo"></a>
-    <ul class="">
-      <li><a href="AI-image-generator/index.html">AI Image generator</a></1i>
-      <li><a href="../crypto-wallet/index.html">Crypto wallet</a></1i>
-      <li><a href="../fashion/index.html">Crypto wallet</a></1i>
-      <li><a href="../multi-columns/index.html">Crypto wallet</a></1i>
-      <li><a href="../project-hero/index.html">Project Hero</a></1i>
-      <li><a href="../smoothies/index.html">Smoothies</a></1i>
-      <li><a href="#" id="btn-cta"><span>CTA Button</span><i class="fas fa-arrow-right"></i></a></1i>
-    </ul>
-    <div class="item-icon">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
+  <nav class="theme-dark">
+    <div class="container-menu menu-desktop">
+      <a id="placeholder-logo" href="#" class="brand">
+        <h2>ALP</h2>
+      </a>
+
+      <div class="container-menu-links">
+
+        <div class="nav-toggle" aria-label="menu" aria-expanded="false">
+          <div class="bar-1"></div>
+          <div class="bar-2"></div>
+          <div class="bar-3"></div>
+        </div>
+
+        <ul class="links-wrapper">
+          <li><a href="#">Home</a></li>
+          <li><a href="/portfolio/index.html">Projects</a></li>
+          <li><a class="btn btn-outline btn-soft" id="btn-cta" href="/contact/index.html"><span>Let's talk</span></a>
+          </li>
+        </ul>
+      </div>
 
     </div>
-
   </nav>
-  <header class="hero-block hero-bg text-center-desktop text-center-mobile">
+
+  <!-- header starts here -->
+
+  <header class="theme-light text-center-desktop text-center-mobile">
 
     <div class="container-text">
-
-      <h1 class="text-shadow">Nice heading</h1>
-
-      <h2 class="text-shadow">A sub-heading that motivates visitors to continue reading.</h2>
+      <h1>Need a <span class="highlight">fullstack developer? </span></h1>
+      <div class="container-text w-50">
+        <h2>I'm <span class="highlight">Auriane Le Perdriel</span>, a french student ready for any of your web project
+        </h2>
+      </div>
     </div>
-
     <div class="container-btn">
-
-
-
-      <a href="#" class="btn btn-primary"><i class="fas fa-shopping-cart"></i><span>Order now</span></a>
-      <a href="#" class="btn btn-secondary"><i class="fas fa-arrow-right"></i><span>Learn more</span></a>
-
+      <a href="/portfolio/index.html" class="btn btn-solid btn-pill btn-shadow"><span>See all my projects</span></a><a
+        href="/contact/index.html" class="btn btn-outline btn-pill"><i class="fas fa-arrow-right"></i><span>Contact me
+          !</span></a>
     </div>
-
-    <div class="container-media">
-      <img src="assets/img/1920x800-center.jpg" alt="Placeholder image">
-    </div>
-
-    <div class="container-overlay"></div>
 
   </header>
+  <!-- section starts here -->
+
+  <section class="section-selector-1 w-1320px theme-light">
+    <div class="col-1 text-center">
+      <h2>A few projects</h2>
+      <h3>Some projects I worked on. You can see more of them directly <a href="/portfolio/index.html">here</a></h3>
+    </div>
+    <!-- Begin three-column flexbox grid -->
+    <div id="projects" class="flex-cols-3 rows-gap-3 cols-gap-3 cols-padding cols-borders-width-1">
+
+      <div class="col-3">
+        <figure>
+          <img src="https://lunevedy.com/ui/assets/img/460x280-bakery.png" alt="Placeholder image">
+        </figure>
+        <div class="badge">HTML/CSS</div>
+        <a href="../fashion/index.html" class="col-3-h3">Snazzy fashion</a>
+        <p>A landing page for your new favorite fashion retailer.</p><a href="../fashion/index.html"
+          class="btn btn-plain"><span>Learn
+            more</span><i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="col-3">
+        <figure>
+          <img src="https://lunevedy.com/ui/assets/img/460x280-fashion-yellow.png" alt="Placeholder image">
+        </figure>
+        <div class="badge">NODE.JS &amp; EXPRESS</div>
+        <a href="/AI-image-generator/public/index.html" class="col-3-h3">AI images generator</a>
+        <p>A simple website to generate AI-generated images. Made with the open AI API and Dall-E</p><a
+          href="/AI-image-generator/public/index.html" class="btn btn-plain"><span>Learn
+            more</span><i class="fas fa-arrow-right"></i></a>
+      </div>
+
+      <div class="col-3">
+        <figure>
+          <img src="https://lunevedy.com/ui/assets/img/460x280-student.png" alt="Placeholder image">
+        </figure>
+        <div class="badge">REACT.JS</div>
+        <a href="/todo-list/public/index.html" class="col-3-h3">Todo List App</a>
+        <p>A react.js project to create and manage easily everyday todo lists. You will never forget a task
+          anymore!</p><a href="/todo-list/public/index.html" class="btn btn-plain"><span>Learn
+            more</span><i class="fas fa-arrow-right"></i></a>
+      </div>
+
+    </div>
+    <!-- End three-column flexbox grid -->
+
+  </section>
+
+  <!-- section ends here -->
 
 
 
   <!-- footer -->
-  <footer></footer>
+  <footer style="background-color: #BBBBBB" class="custom-footer">
+    <p>School project by Auriane Le Perdriel 2022</p>
+    <p><a href="https://github.com/aleperdriel" target="_blank">My github profile</a></p>
+  </footer>
   <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 </body>
 

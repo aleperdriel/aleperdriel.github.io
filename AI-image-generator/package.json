@@ -1,9 +1,12 @@
 {
   "name": "ai-image-generator",
   "version": "1.0.0",
+  "homepage": "https://aleperdriel.github.io/AI-image-generator",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "node index",
     "dev": "nodemon index"
   },
@@ -16,6 +19,7 @@
     "openai": "^3.1.0"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.20"
   }
 }
